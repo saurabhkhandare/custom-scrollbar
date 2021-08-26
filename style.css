@@ -1,0 +1,48 @@
+body{
+    overflow: overlay;
+}
+
+
+.scroll-img{
+    margin: 5%;
+}
+
+img{
+    /* width: 600px; */
+    width: 30em;
+    border-radius: 5px;
+}
+
+.center{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h2{
+    font-size: 60px;
+    font-family: monospace;
+}
+
+h3{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+p{
+    font-family: cursive;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(transparent,rgb(134, 120, 134)) ;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
